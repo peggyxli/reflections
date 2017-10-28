@@ -1,0 +1,2 @@
+What happens when you initialize a repository? Why do you need to do it?
+A .git file/folder is create when you initialize a repository. You need to do it to turn your directory into a repository.
