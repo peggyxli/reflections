@@ -1,2 +1,14 @@
 What happens when you initialize a repository? Why do you need to do it?
 A .git file/folder is create when you initialize a repository. You need to do it to turn your directory into a repository.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+The staging area is a intermediary between the working directory and the repository. It allows one to make changes without committing to them, which reduces the number of commits Git has to track.
+
+How can you use the staging area to make sure you have one commit per logical change?
+You can use it to ensure that the changes you are making in the commit are indeed one logical change.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Branches are useful when making experimental changes or versions that you wouldn't consider part of the "main" version. Branches help by keeping things organized while switching between versions.
+
+How do the diagrams help you visualize the branch structure?
+They help me understand how a commit may get lost and how the branches are connected to each other.
